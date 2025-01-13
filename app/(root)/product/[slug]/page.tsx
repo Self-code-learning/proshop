@@ -2,8 +2,8 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { getProductBySlug } from "@/lib/actions/product.actions";
 import { notFound } from "next/navigation";
-import ProductPrice from "@/components/shared/header/product/product-price";
-import ProductImages from "@/components/shared/header/product/product-images";
+import ProductPrice from "@/components/shared/product/product-price";
+import ProductImages from "@/components/shared/product/product-images";
 
 const ProductDetailsPage = async (props: {
   params: Promise<{ slug: string }>;
